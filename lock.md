@@ -44,7 +44,7 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
         a.BackgroundTransparency = 0
         else
         a.Transparency = 1
-        a.BackgroundTransparency = 0
+        a.BackgroundTransparency = 1
         end
         a.BackgroundColor3 = Color
         local g = Instance.new("UICorner", a)
@@ -94,7 +94,7 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
         end
         placemarker.Transparency = 0.75
         if Settings.rewrittenmain.DOT then
-        makemarker(placemarker, placemarker, Color3.fromRGB(255, 9, 67), 1, 0)
+        makemarker(placemarker, placemarker, Color3.fromRGB(255, 0, 0), 1, 0)
         end
     end)
  
@@ -105,8 +105,8 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
                 if Settings.rewrittenmain.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "void.cc";
-                    Text = "Unlocked",
+                    Title = "Red Dotlock";
+                    Text = "Unlocked :)",
                     Duration = 5
                 })
             end
@@ -116,8 +116,8 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
                 if Settings.rewrittenmain.NOTIF == true then
  
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "void.cc";
-                        Text = "locked: "..tostring(Plr.Character.Humanoid.DisplayName),
+                        Title = "Red Dotlock";
+                        Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Duration = 5
                     })
  
@@ -293,6 +293,5 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
                 SelectedPart = "HumanoidRootPart"
         end
     end)
-end))
-loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Ctool/main/README.lua", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/smooth-lock/main/script.md”, true))()
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/ctool/main/ctool", true))()
