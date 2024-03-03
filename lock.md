@@ -294,5 +294,5 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
         end
     end)
     
-    loadstring(game:HttpGet("https://pastefy.app/oTXOueJa/raw", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Ctool/main/README.lua", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/-codnsk/main/README.lua", true))()
