@@ -94,7 +94,7 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
         end
         placemarker.Transparency = 0.75
         if Settings.rewrittenmain.DOT then
-        makemarker(placemarker, placemarker, Color3.fromRGB(0, 0, 139), 1, 0)
+        makemarker(placemarker, placemarker, Color3.fromRGB(255, 0, 0), 1, 0)
         end
     end)
  
@@ -296,4 +296,4 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Ctool/main/README.lua", true))()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/smooth-lock/main/script.md”, true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/smooth-lock/main/script.md", true))()
