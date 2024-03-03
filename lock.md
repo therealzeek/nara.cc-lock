@@ -294,6 +294,4 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
         end
     end)
     
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Ctool/main/README.lua", true))()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/smooth-lock/main/script.md", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/smooth-lock/main/script.md”, true))()
